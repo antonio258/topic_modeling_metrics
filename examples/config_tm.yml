@@ -1,0 +1,19 @@
+---
+
+dataset: wos
+
+methods:
+  - "cluwords"
+  - "berttopic"
+  - "nmf"
+  - "lda"
+
+datapath: your_path/datasets
+topics_documents_path: your_path/topicos
+topic_words_path: your_path/results_metrics
+embedding_word_path: your_path/embeddings/crawl-300d-2M.vec
+embedding_doc_name_path: all-mpnet-base-v2
+
+n_words: 10
+
+save_path: your_path/results
